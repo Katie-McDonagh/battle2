@@ -20,6 +20,12 @@ get '/secret' do
   'this is secret'
 end
 
+post 'cat-form' do
+  erb(:cat_form)
+end
+
+
+
 get '/houses' do
   "<div>
   <img src=https://davidburr.co.uk/wp-content/uploads/2018/11/Victorian-Properties-1050x550.jpg>
